@@ -93,8 +93,13 @@ body {
 
 .infoText {
   color: var(--reserved-color);
+  display: none;
 }
 
 .infoText span {
   color: var(--selected-color);
+}
+
+.open {
+  display: block;
 }

@@ -22,7 +22,7 @@
       <!-- Seats Area -->
       <div class="seatRow">
         <div class="seat reserved"><i class="fa-solid fa-chair"></i></div>
-        <div class="seat selected"><i class="fa-solid fa-chair"></i></div>
+        <div class="seat"><i class="fa-solid fa-chair"></i></div>
         <div class="seat"><i class="fa-solid fa-chair"></i></div>
         <div class="seat"><i class="fa-solid fa-chair"></i></div>
         <div class="seat"><i class="fa-solid fa-chair"></i></div>
@@ -74,11 +74,11 @@
 
     <!-- film choose bar -->
     <div class="movie-list">
-      <select name="" id="">
+      <select name="" id="movie">
         <option value="" disabled>Film Seçiniz</option>
-        <option value="">Film 1</option>
-        <option value="">Film 2</option>
-        <option value="">Film 3</option>
+        <option value="100">Film 1</option>
+        <option value="200">Film 2</option>
+        <option value="300">Film 3</option>
       </select>
     </div>
 
@@ -98,7 +98,8 @@
       </li>
     </ul>
     <p class="infoText">
-      <span>2</span> koltuk için hesaplanan ücret <span>400</span>₺
+      <span id="count"></span> koltuk için hesaplanan ücret
+      <span id="amount"></span>₺
     </p>
     <script src="jscodes/main.js"></script>
   </body>
